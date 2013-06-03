@@ -3,13 +3,44 @@
 <head>
 <meta charset="UTF-8" />
 <title>秒速で一億稼ぐ ゆうこ☆マギカの個人事業主</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script type="text/javascript" src="file://localhost/Users/kondoyuko/Dropbox/2013birthday/2013birthday/js/Animify.0.48.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+$('#main').Animify({ 'background-color': '#ff69b4';
+'y-direction':'up'
+ });
+})
+</script>
+<script type="text/javascript">
+$(function(){
+$('#div_below').Animify({'y-direction':'up'});
+})
+</script>
+  
+  <link rel="stylesheet" href="file://localhost/Users/kondoyuko/Dropbox/2013birthday/2013birthday/css/style.css">
+  
 </head>
 <body>
 <header><h1>html5最小テンプレート</h1></header>
 <nav><ul><li><a href="./">Home</a></li></ul></nav>
 <article>
 <h2>html5最低限テンプレート</h2>
+
+<div id="main">
+<p>テストです</p>
+</div>
+
 <p>html5の最低限テンプレートになります。</p>
+<h2><code>$('#div_below').Animify({'y-direction':'up'});
+</code></h2>
+
+<div id="div_below" class="basic">
+<p style="float:right;margin:20px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled...</p>
+</div>
+
+
 </article>
 <footer><a href="./">html5最小テンプレート</a></footer>
 </body>
