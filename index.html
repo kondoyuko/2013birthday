@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title>秒速で一億稼ぐ ゆうこ☆マギカの個人事業主</title>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script type="text/javascript" src="file://localhost/Users/kondoyuko/Dropbox/2013birthday/2013birthday/js/Animify.0.48.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+<!-- 泡
+<script type="text/javascript" src="file://localhost/Users/kondoyuko/Dropbox/2013birthday/2013birthday/js/Animify.0.48.min.js"></script>
 
 <script type="text/javascript">
 $(function(){
-$('body').Animify({'y-direction':'up'});
+$('body').Animify({'y-direction':'up','item-quantity':100});
 })
 </script>
-  
-  <link rel="stylesheet" href="file://localhost/Users/kondoyuko/Dropbox/2013birthday/2013birthday/css/style.css">
+-->
+
+<!-- 星を降らせる -->
+<script type='text/javascript' src="js/snowfall.jquery.js"></script>
+<script type='text/javascript'>
+	$(document).snowfall({
+		flakeCount : 100, //要素の数
+		minSize : 10, //最大の大きさ
+		maxSize : 32, //最小の大きさ
+		image : "image/star.png"
+	});
+</script>
+<!-- 星を降らせる -->
+
+<!-- Google Analytics -->
+
+
+<!-- Facebookいいね！ -->
   
 </head>
 <body>
-<header><h1>html5最小テンプレート</h1></header>
+<div class="container-back">
+<div id="container">
+
+<header><h1>秒速で一億稼ぐ ゆうこ☆マギカの個人事業主</h1></header>
 <nav><ul><li><a href="./">Home</a></li></ul></nav>
 <article>
 <h2>html5最低限テンプレート</h2>
@@ -36,5 +58,7 @@ $('body').Animify({'y-direction':'up'});
 
 </article>
 <footer><a href="./">html5最小テンプレート</a></footer>
+</div><!-- end of container -->
+</div><!-- end of container-back -->
 </body>
 </html>
